@@ -6,43 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="center">Nutrient finder</h1>
-    <div class="center1">
+    <h1 class="refresh" onClick="refreshPage()">Nutrient finder</h1>
+    <div class="center">
         <input id="food" type="text" placeholder="Search Food">
         <button onclick="show()" id="submit">Search</button>
     </div>
-    <div class="center2">
-        <h2 id="name"></h2>
-    </div>
 
-    <div class="kopa">
-        <div class="pakreisi">
-            <h3 id="virsraksts3"></h3>
-            <ul id="hide1">
-                <li id="protein"></li>
-                <li id="carb"></li>
-                <li id="fat"></li>
-                <li id="potassium"></li>
-                <li id="sodium"></li>
-                <li id="sugar"></li>
-            </ul>
+        <div class="center">
+            <h2 id="name"></h2>
         </div>
-
-        <div class="palabi">
-            <h2 id="virsraksts1"></h2>
-            <div id="hide2">
-                <ul>
-                    <li id="walking"></li>
-                    <li id="running"></li>
-                    <li id="cycling"></li>
-                    <li id="swimming"></li>
+        <div id="kopa" class="kopa">
+            <div class="pakreisi">
+                <h2 id="virsraksts3"></h2>
+                <ul id="hide1" class="center1">
+                    <li id="protein"></li>
+                    <li id="carb"></li>
+                    <li id="fat"></li>
+                    <li id="potassium"></li>
+                    <li id="sodium"></li>
+                    <li id="sugar"></li>
                 </ul>
+            </div>
+            <div class="palabi">
+                <h2 id="virsraksts1"></h2>
+                <div id="hide2">
+                    <ul class="center1">
+                        <li id="walking"></li>
+                        <li id="running"></li>
+                        <li id="cycling"></li>
+                        <li id="swimming"></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-    </div>
 
 
     <script src="main.js"></script>

@@ -1,20 +1,75 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+} */
+
+body {
+    background: lightgray;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input {
+    font-family: 'Noto Sans', sans-serif;
+    width: 250px;
+    height: 22px;
+    border-radius: 6px;
+}
+
+button {
+    font-family: 'Noto Sans', sans-serif;
+    width: 60px;
+    height: 28px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+ 
+
+
+.refresh {
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
 .center {
     text-align: center;
+    margin-top: 50px;
 
 }
 
 .center1 {
     text-align: center;
-    margin-top: 50px;
+
 
 }
 
-.center2 {
+#virsraksts1 {
     text-align: center;
-    margin-top: 50px;
-    /* margin-left: 100px; */
 
 }
+
+#virsraksts3 {
+    text-align: center;
+
+}
+
 
 #hide1 {
     display: none;
@@ -25,6 +80,26 @@
 }
 
 .kopa {
+    list-style-type: none;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
+.palabi {
+    width: 100%;
+}
+
+.pakreisi {
+    width: 100%;
+}

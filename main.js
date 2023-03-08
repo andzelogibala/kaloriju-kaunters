@@ -32,7 +32,7 @@ function Swimming(calories) {
 
 let search = ''
 function callinfo (){
-    foodname = document.getElementById('food').value
+    foodname = document.getElementById('food').value 
     
     
     fetch('https://nutrition-by-api-ninjas.p.rapidapi.com/v1/nutrition?query=' + foodname , options)
@@ -71,7 +71,13 @@ function callinfo (){
 function show() {
     document.getElementById('hide1').style.display = "block";
     document.getElementById('hide2').style.display = "block";
+
+    document.getElementById('kopa').style.backgroundColor = "gray";
 }
+
+function refreshPage(){
+    window.location.reload();
+} 
 
 
 
