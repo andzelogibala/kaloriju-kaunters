@@ -1,0 +1,30 @@
+.center {
+    text-align: center;
+
+}
+
+.center1 {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.center2 {
+    text-align: center;
+    margin-top: 50px;
+    /* margin-left: 100px; */
+
+}
+
+#hide1 {
+    display: none;
+}
+
+#hide2 {
+    display: none;
+}
+
+.kopa {
+    display: flex;
+}
+

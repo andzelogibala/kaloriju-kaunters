@@ -5,18 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input id="food" type="text" placeholder="Search Food">
-    <button id="submit">Search</button>
-    <h2 id="name"></h2>
-    <p id="kcal"></p>
-    <p id="protein"></p>
-    <h2 id="virsraksts1"></h2>
-    <p id="walking"></p>
-    <p id="running"></p>
-    <p id=cycling></p>
-    <p id="swimming"></p>
+    <h1 class="center">Nutrient finder</h1>
+    <div class="center1">
+        <input id="food" type="text" placeholder="Search Food">
+        <button onclick="show()" id="submit">Search</button>
+    </div>
+    <div class="center2">
+        <h2 id="name"></h2>
+    </div>
+
+    <div class="kopa">
+        <div class="pakreisi">
+            <h3 id="virsraksts3"></h3>
+            <ul id="hide1">
+                <li id="protein"></li>
+                <li id="carb"></li>
+                <li id="fat"></li>
+                <li id="potassium"></li>
+                <li id="sodium"></li>
+                <li id="sugar"></li>
+            </ul>
+        </div>
+
+        <div class="palabi">
+            <h2 id="virsraksts1"></h2>
+            <div id="hide2">
+                <ul>
+                    <li id="walking"></li>
+                    <li id="running"></li>
+                    <li id="cycling"></li>
+                    <li id="swimming"></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
 
     <script src="main.js"></script>
 </body>
