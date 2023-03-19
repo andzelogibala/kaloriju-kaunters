@@ -12,35 +12,47 @@
 </head>
 <body>
     <h1 class="refresh" onClick="refreshPage()">Nutrient finder</h1>
-    <div class="center">
+    <div class="center" id="show">
         <input id="food" type="text" placeholder="Search Food">
-        <button onclick="show()" id="submit">Search</button>
+        <button id="submit">Search</button>
     </div>
+    <div id="error"><a id="errortext">Food doesn't exist</a></div>
 
-        <div class="center">
-            <h2 id="name"></h2>
-        </div>
-        <div id="kopa" class="kopa">
-            <div class="pakreisi">
-                <h2 id="virsraksts3"></h2>
-                <ul id="hide1" class="center1">
-                    <li id="protein"></li>
-                    <li id="carb"></li>
-                    <li id="fat"></li>
-                    <li id="potassium"></li>
-                    <li id="sodium"></li>
-                    <li id="sugar"></li>
-                </ul>
+
+        <div id="viss">
+            <div class="center" id="show">
+                <h2 id="name"></h2>
             </div>
-            <div class="palabi">
-                <h2 id="virsraksts1"></h2>
-                <div id="hide2">
-                    <ul class="center1">
-                        <li id="walking"></li>
-                        <li id="running"></li>
-                        <li id="cycling"></li>
-                        <li id="swimming"></li>
+            <div id="kopa" class="kopa">
+                <div class="augsa">
+                    <h2 id="virsraksts3"></h2>
+                    <ul id="hide1" class="center1">
+                        <li id="protein"></li>
+                        <li id="carb"></li>
+                        <li id="fat"></li>
+                        <li id="potassium"></li>
+                        <li id="sodium"></li>
+                        <li id="sugar"></li>
                     </ul>
+                </div>
+                <div class="apaksa">
+                    <h2 id="virsraksts1"></h2>
+                    <div id="hide2">
+                        <div id="hide3">
+                            <ul id="bildes">
+                                <li id="bilde"><img src="playing.png" id="bilde1"></li>
+                                <li id="bilde"><img src="run.png" id="bilde1"></li>
+                                <li id="bilde"><img src="bicycle.png" id="bilde1"></li>
+                                <li id="bilde"><img src="swimming.png" id="bilde1"></li>
+                            </ul>
+                        </div>
+                        <ul class="center2">
+                            <li id="walking"></li>
+                            <li id="running"></li>
+                            <li id="cycling"></li>
+                            <li id="swimming"></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
